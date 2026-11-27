@@ -25,9 +25,9 @@ class OllamaProvider(
         install(ContentNegotiation) { json(json) }
         install(HttpTimeout) {
             // Un modelo grande puede tardar en cargarse y en generar: sin límite de petición.
-            requestTimeoutMillis = HttpTimeout.INFINITE_TIMEOUT_MS
+            requestTimeoutMillis = Long.MAX_VALUE
             connectTimeoutMillis = 5_000
-            socketTimeoutMillis = HttpTimeout.INFINITE_TIMEOUT_MS
+            socketTimeoutMillis = Long.MAX_VALUE
         }
     }
 
