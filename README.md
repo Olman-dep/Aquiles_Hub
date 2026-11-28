@@ -1,4 +1,4 @@
-# 🛰️ Agent Hub
+# 🛰️ Aquiles Hub
 
 > Un **mission control** local y gratuito para orquestar y observar agentes de IA que corren sobre [Ollama](https://ollama.com). Ves en vivo qué hace cada modelo, a quién delega, qué herramientas usa y cuántos tokens consume.
 
